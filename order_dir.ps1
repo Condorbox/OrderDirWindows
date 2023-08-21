@@ -32,5 +32,5 @@ do{
 
     $table | Sort-Object -Property SizeNum -Descending | Format-Table -AutoSize -Property Name, Type, Size 
 
-    $respuesta = Read-Host "¿Do you want to see another path? (Y/N)"
+    $respuesta = Read-Host "Do you want to see another path? (Y/N)"
 }while($respuesta.ToLower() -eq 'y')
